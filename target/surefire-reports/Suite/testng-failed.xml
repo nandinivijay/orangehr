@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.orangeHRM.qa.util.Listener_ItestContext_Screenshot"/>
+    <listener class-name="com.orangeHRM.qa.util.TestListenerForExtentReports"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.orangeHRM.qa.testcases.LicensesPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyLicensesPageNavigation"/>
+          <include name="licensesTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LicensesPageTest -->
+      <class name="com.orangeHRM.qa.testcases.VacanciesPageTest">
+        <methods>
+          <include name="verifyVacanciesPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="vacanciesTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.VacanciesPageTest -->
+      <class name="com.orangeHRM.qa.testcases.MaintenancePageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="verifyColorsOfSubmenuInMaintenance"/>
+          <include name="loadUrl"/>
+          <include name="navigatingToSubMenuOnClickingMaintenance"/>
+          <include name="maintenanceTesting"/>
+          <include name="validatingMaintenanceSubMenuDisplay"/>
+          <include name="verifyMaintenancePageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MaintenancePageTest -->
+      <class name="com.orangeHRM.qa.testcases.JobTitlesPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyJobTitlesPageNavigation"/>
+          <include name="jobTitlesTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.JobTitlesPageTest -->
+      <class name="com.orangeHRM.qa.testcases.MyEntitlementsPageTest">
+        <methods>
+          <include name="setcontext"/>
+          <include name="testcontext"/>
+          <include name="verifyMyEntitlementTestPage"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyMyEntitlementsPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MyEntitlementsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.EmergencyContactsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validateEmergencyContactsButton_bgcolor"/>
+          <include name="verifyEmergencyContactsPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EmergencyContactsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.PunchInOutPageTest">
+        <methods>
+          <include name="verifyPunchInOutPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="punchInOutTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.PunchInOutPageTest -->
+      <class name="com.orangeHRM.qa.testcases.EmploymentStatusPageTest">
+        <methods>
+          <include name="employmentStatusTesting"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyEmploymentStatusPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EmploymentStatusPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ReportsTimePageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyReportsTimePageNavigation"/>
+          <include name="validatingTimeSubMenuDisplay"/>
+          <include name="reportsTimeTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ReportsTimePageTest -->
+      <class name="com.orangeHRM.qa.testcases.UserManagementPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validatingUserManagementSubMenuDisplay"/>
+          <include name="verifyUserManagementPageNavigation"/>
+          <include name="userManagementTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.UserManagementPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ImmigrationPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyImmigrationPageNavigation"/>
+          <include name="validateImmigationsButton_bgcolor"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ImmigrationPageTest -->
+      <class name="com.orangeHRM.qa.testcases.EmailConfigurationPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="emailConfigurationTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="configurationAdminTesting"/>
+          <include name="verifyEmailConfigurationPageNavigation"/>
+          <include name="validatingUserManagementSubMenuDisplay"/>
+          <include name="verifyConfigurationAdminPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EmailConfigurationPageTest -->
+      <class name="com.orangeHRM.qa.testcases.EmployeeReportsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyEmployeeReportsPageNavigation"/>
+          <include name="employeeReportsTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EmployeeReportsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.OrganizationPageTest">
+        <methods>
+          <include name="validatingUserManagementSubMenuDisplay"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="organizationTesting"/>
+          <include name="verifyOrganization"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.OrganizationPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ConfigurePerformancePageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyConfigurePerformancePageNavigation"/>
+          <include name="validatingConfigurePerformanceSubMenuDisplay"/>
+          <include name="configurePerformanceTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ConfigurePerformancePageTest -->
+      <class name="com.orangeHRM.qa.testcases.StructurePageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyStructurePageNavigation"/>
+          <include name="structureTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.StructurePageTest -->
+      <class name="com.orangeHRM.qa.testcases.PerformancePageTest">
+        <methods>
+          <include name="performanceTesting"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyColorsOfSubmenuInPerformance"/>
+          <include name="verifyPerformancePageNavigation"/>
+          <include name="validatingPerformanceSubMenuDisplay"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.PerformancePageTest -->
+      <class name="com.orangeHRM.qa.testcases.ReviewListPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="reviewListTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyMyTrackersPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ReviewListPageTest -->
+      <class name="com.orangeHRM.qa.testcases.PurgeRecordsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="purgeRecordsTesting"/>
+          <include name="validatingPurgeRecordsSubMenuDisplay"/>
+          <include name="verifyPurgeRecordsPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.PurgeRecordsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.Memberships_MyInfoPageTest">
+        <methods>
+          <include name="a_verifyMyInfoPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="b_myInfoTesting"/>
+          <include name="validateMemberships_MyInfoButton_bgcolor"/>
+          <include name="verifyMemberships_MyInfoPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.Memberships_MyInfoPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ConfigureLeavePageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="configureLeaveTesting"/>
+          <include name="initialise"/>
+          <include name="validatingConfigureLeaveSubMenuDisplay"/>
+          <include name="loadUrl"/>
+          <include name="verifyConfigureLeavePageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ConfigureLeavePageTest -->
+      <class name="com.orangeHRM.qa.testcases.MyTimeSheetsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="myTimeSheetsTesting"/>
+          <include name="verifyMyTimeSheetsPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MyTimeSheetsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ContactDetailsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyContactDetailsPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validateContactDetailsButton_bgcolor"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ContactDetailsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.JobMyInfoPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="validateJobButton_bgcolor"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyJobPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.JobMyInfoPageTest -->
+      <class name="com.orangeHRM.qa.testcases.AddEntitlementPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyAddEntitlementsTestPage"/>
+          <include name="initialise"/>
+          <include name="setcontext"/>
+          <include name="loadUrl"/>
+          <include name="addEntitlement"/>
+          <include name="verifyEmployemployeeEntitlementsPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.AddEntitlementPageTest -->
+      <class name="com.orangeHRM.qa.testcases.AccessRecordsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyAccessRecordsPageNavigation"/>
+          <include name="accessRecordsTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.AccessRecordsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ReportsPIMPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="reportsPIMTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyReportsPIMPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ReportsPIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.MyReviewsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyMyReviewsPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="myReviewsTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MyReviewsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.MyTrackersPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyMyTrackersPageNavigation"/>
+          <include name="myTrackersTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MyTrackersPageTest -->
+      <class name="com.orangeHRM.qa.testcases.JobAdminPageTest">
+        <methods>
+          <include name="validatingJobAdminSubMenuDisplay"/>
+          <include name="testcontext"/>
+          <include name="jobAdminTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyJobAdminPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.JobAdminPageTest -->
+      <class name="com.orangeHRM.qa.testcases.TrackersPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyTrackersPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="trackersTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.TrackersPageTest -->
+      <class name="com.orangeHRM.qa.testcases.RecruitmentPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyRecruitmentPageNavigation"/>
+          <include name="validatingRecruitmentSubMenuDisplay"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="navigatingToSubMenuOnClickingRecruitment"/>
+          <include name="verifyColorsOfSubmenuInRecruitment"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.RecruitmentPageTest -->
+      <class name="com.orangeHRM.qa.testcases.LocationsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="locationsTesting"/>
+          <include name="verifyLocationsPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LocationsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ProjectInfoPageTest">
+        <methods>
+          <include name="verifyProjectInfoPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="validatingProjectInfoSubMenuDisplay"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="projectInfoTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ProjectInfoPageTest -->
+      <class name="com.orangeHRM.qa.testcases.SkillsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifySkillsPageNavigation"/>
+          <include name="skillsTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.SkillsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.PurgeCandidatesRecordsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="purgeCandidatesRecordsTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyPurgeCandidatesRecordsPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.PurgeCandidatesRecordsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.BaseVerificationTest">
+        <methods>
+          <include name="verifyCommonElementsAfterLogin"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyCommonElements"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.BaseVerificationTest -->
+      <class name="com.orangeHRM.qa.testcases.ConfigurationAdminPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="configurationAdminTesting"/>
+          <include name="validatingUserManagementSubMenuDisplay"/>
+          <include name="verifyConfigurationAdminPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ConfigurationAdminPageTest -->
+      <class name="com.orangeHRM.qa.testcases.LeaveTypesPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyLeaveTypesPageNavigation"/>
+          <include name="leaveTypesTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LeaveTypesPageTest -->
+      <class name="com.orangeHRM.qa.testcases.Qualifiation_MyInfoPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validateQualifiation_MyInfoButton_bgcolor"/>
+          <include name="verifyQualifiation_MyInfoPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.Qualifiation_MyInfoPageTest -->
+      <class name="com.orangeHRM.qa.testcases.AddEmployeePIMPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyAddEmployeePIMPageNavigation"/>
+          <include name="addEmployeePIMTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.AddEmployeePIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ReportsLeavePageTest">
+        <methods>
+          <include name="verifyReportsLeavePageNavigation"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="validatingReortsLeaveSubMenuDisplay"/>
+          <include name="loadUrl"/>
+          <include name="reportsLeaveTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ReportsLeavePageTest -->
+      <class name="com.orangeHRM.qa.testcases.KPIsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyKPIsPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="kPIsTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.KPIsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.TaxExemptionPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyTaxExemptionPageNavigation"/>
+          <include name="validateTaxExemptionButton_bgcolor"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.TaxExemptionPageTest -->
+      <class name="com.orangeHRM.qa.testcases.PersonalDetailsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="validatingPersonalDetailsFieldsDisplay"/>
+          <include name="initialise"/>
+          <include name="tebleHeaderValidation"/>
+          <include name="loadUrl"/>
+          <include name="validatingNationalityDropdownOptionsSort"/>
+          <include name="setcontext"/>
+          <include name="verifyLicenseExpiryDateFormat"/>
+          <include name="colorOfButtons"/>
+          <include name="validatingMarritalStatusDropdownOptionsSort"/>
+          <include name="verifyDateOfBirthDateFormat"/>
+          <include name="toolTipValidation"/>
+          <include name="verifypersonalDetailsPageNavigation"/>
+          <include name="personalDetailsTesting"/>
+          <include name="validatingNationalityDropdownOptionsDuplicates"/>
+          <include name="validatingMarritalStatusDropdownOptionsDuplicates"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.PersonalDetailsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.RegisterOAuthClientPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyRegisterOAuthClientPageNavigation"/>
+          <include name="registerOAuthClientTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.RegisterOAuthClientPageTest -->
+      <class name="com.orangeHRM.qa.testcases.PayGradesPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="payGradesTesting"/>
+          <include name="verifyPayGradesPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.PayGradesPageTest -->
+      <class name="com.orangeHRM.qa.testcases.GeneralInformationPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyGeneralInformationPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="generalInformationTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.GeneralInformationPageTest -->
+      <class name="com.orangeHRM.qa.testcases.EducationPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyEmailConfigurationPageNavigation"/>
+          <include name="educationTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EducationPageTest -->
+      <class name="com.orangeHRM.qa.testcases.BuzzPageTest">
+        <methods>
+          <include name="buzzTesting"/>
+          <include name="verifyBuzzPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.BuzzPageTest -->
+      <class name="com.orangeHRM.qa.testcases.CustomersPageTest">
+        <methods>
+          <include name="verifyCustomersPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="customersTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.CustomersPageTest -->
+      <class name="com.orangeHRM.qa.testcases.LanguagePackagesPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyLanguagePackagesPageNavigation"/>
+          <include name="languagePackagesTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LanguagePackagesPageTest -->
+      <class name="com.orangeHRM.qa.testcases.EmailSubscriptionsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="emailSubscriptionsTesting"/>
+          <include name="verifyEmailSubscriptionsPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EmailSubscriptionsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ModulesPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyModulesPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="modulesTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ModulesPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ApplyLeavePageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="applyLeaveTesting"/>
+          <include name="verifyApplyLeaveNavigationPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ApplyLeavePageTest -->
+      <class name="com.orangeHRM.qa.testcases.ReportToPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyReportToMyInfoPageNavigation"/>
+          <include name="validateReportToButton_bgcolor"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ReportToPageTest -->
+      <class name="com.orangeHRM.qa.testcases.AttendancePageTest">
+        <methods>
+          <include name="attendanceTesting"/>
+          <include name="testcontext"/>
+          <include name="validatingAttendanceSubMenuDisplay"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyAttendancePageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.AttendancePageTest -->
+      <class name="com.orangeHRM.qa.testcases.SalaryPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validateSalaryButton_bgcolor"/>
+          <include name="verifySalaryPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.SalaryPageTest -->
+      <class name="com.orangeHRM.qa.testcases.AdminPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyColorsOfSubmenuInAdmin"/>
+          <include name="validatingAdminSubMenuDisplay"/>
+          <include name="verifyAdminPageNavigation"/>
+          <include name="navigatingToSubMenuOnClickingAdmin"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.AdminPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ManageReviewsSubPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyManageReviewsSubPageNavigation"/>
+          <include name="manageReviewsSubTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ManageReviewsSubPageTest -->
+      <class name="com.orangeHRM.qa.testcases.WorkWeekPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="workWeekTesting"/>
+          <include name="verifyWorkWeekPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.WorkWeekPageTest -->
+      <class name="com.orangeHRM.qa.testcases.HolidaysPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="holidaysTesting"/>
+          <include name="verifyHolidaysPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.HolidaysPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ReportingMethodsPIMPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="reportingMethodsPIMTesting"/>
+          <include name="verifyReportingMethodsPIMPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ReportingMethodsPIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.MyLeaveEntitlementsAndUsageReportPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyMyLeaveEntitlementsAndUsageReportPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="myLeaveEntitlementsAndUsageReportTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MyLeaveEntitlementsAndUsageReportPageTest -->
+      <class name="com.orangeHRM.qa.testcases.EmployeeRecordsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="employeeRecordsTesting"/>
+          <include name="loadUrl"/>
+          <include name="verifyEmployeeRecordsPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EmployeeRecordsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.LocalizationPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="localizationTesting"/>
+          <include name="verifyLocalizationPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LocalizationPageTest -->
+      <class name="com.orangeHRM.qa.testcases.PIMPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="validatingPIMSubMenuDisplay"/>
+          <include name="loadUrl"/>
+          <include name="verifyPIMPageNavigation"/>
+          <include name="navigatingToSubMenuOnClickingPIM"/>
+          <include name="verifyColorsOfSubmenuInPim"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.PIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ManageReviewsPageTest">
+        <methods>
+          <include name="validatingManageReviewsSubMenuDisplay"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyManageReviewsPageNavigation"/>
+          <include name="manageReviewsTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ManageReviewsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.AssignLeavePageTest">
+        <methods>
+          <include name="verifyEmpNameContainsCharacters"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validatingMandatoryFieldsbeforeEnteringValues"/>
+          <include name="validatingLeaveBalanceDropdownOptionsDuplicates"/>
+          <include name="verifyToDateShouldBeAfterFromDate"/>
+          <include name="verifyAssignLeavePageNavigation"/>
+          <include name="assignLeaveTesting"/>
+          <include name="verifyFromDateFormat"/>
+          <include name="verifyPartialDaysAsStartDayOnly"/>
+          <include name="setcontext"/>
+          <include name="verifyToDateFormat"/>
+          <include name="validatingLeaveBalanceDropdownOptionsSort"/>
+          <include name="verifyPartialDaysAsNone"/>
+          <include name="verifyPartialDaysAsStartandEndDay"/>
+          <include name="verifyPartialDaysAsAllDays"/>
+          <include name="verifyPartialDaysAsEndDayOnly"/>
+          <include name="validatingMandatoryFields"/>
+          <include name="verifyCommentsCharacters"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.AssignLeavePageTest -->
+      <class name="com.orangeHRM.qa.testcases.TerminationReasonsPIMPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="terminationReasonsPIMTesting"/>
+          <include name="verifyTerminationReasonsPIMPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.TerminationReasonsPIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.AttendanceSummaryPageTest">
+        <methods>
+          <include name="attendanceSummaryTesting"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyAttendanceSummaryPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.AttendanceSummaryPageTest -->
+      <class name="com.orangeHRM.qa.testcases.LoginTestPage">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="login_invalid_credentials"/>
+          <include name="login_valid_credentials"/>
+          <include name="login_valid_credentials_Othercase"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LoginTestPage -->
+      <class name="com.orangeHRM.qa.testcases.DirectoryPageTest">
+        <methods>
+          <include name="directoryTesting"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyDirectoryPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.DirectoryPageTest -->
+      <class name="com.orangeHRM.qa.testcases.LeavePageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="navigatingToSubMenuOnClickingLeave"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validatingLeaveSubMenuDisplay"/>
+          <include name="verifyColurOfSubMenu"/>
+          <include name="verifyLeavePageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LeavePageTest -->
+      <class name="com.orangeHRM.qa.testcases.TimePageTest">
+        <methods>
+          <include name="navigatingToSubMenuOnClickingTime"/>
+          <include name="testcontext"/>
+          <include name="timeTesting"/>
+          <include name="verifyColorsOfSubmenuInTime"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validatingTimeSubMenuDisplay"/>
+          <include name="verifyTimePageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.TimePageTest -->
+      <class name="com.orangeHRM.qa.testcases.EmployeeTrackersPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="employeeTrackersTesting"/>
+          <include name="loadUrl"/>
+          <include name="verifyEmployeeTrackersPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EmployeeTrackersPageTest -->
+      <class name="com.orangeHRM.qa.testcases.EntitlementsPageTest">
+        <methods>
+          <include name="entitlementsTesting"/>
+          <include name="validatingEntitlementsSubMenuDisplay"/>
+          <include name="testcontext"/>
+          <include name="verifyEntitlementsPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EntitlementsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.TimeSheetsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validatingTimeSheetsSubMenuDisplay"/>
+          <include name="verifyTimeSheetsPageNavigation"/>
+          <include name="timeSheetsTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.TimeSheetsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.DataImportPIMPageTest">
+        <methods>
+          <include name="dataImportPIMTesting"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyDataImportPIMPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.DataImportPIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.MyLeavePageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="myLeaveTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyMyLeavePageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MyLeavePageTest -->
+      <class name="com.orangeHRM.qa.testcases.LeaveEntitlementsAndUsageReportPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="leaveEntitlementsAndUsageReportTesting"/>
+          <include name="verifyLeaveEntitlementsAndUsageReportPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LeaveEntitlementsAndUsageReportPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ConfigurationPIMPageTest">
+        <methods>
+          <include name="validatingConfigurePIMSubMenuDisplay"/>
+          <include name="testcontext"/>
+          <include name="verifyConfigurationPIMPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="ConfigurationPIMTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ConfigurationPIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.NationalitiesPageTest">
+        <methods>
+          <include name="nationalitiesTesting"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyNationalitiesPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.NationalitiesPageTest -->
+      <class name="com.orangeHRM.qa.testcases.CandidatesPageTest">
+        <methods>
+          <include name="verifyCandidatesPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="candidatesTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.CandidatesPageTest -->
+      <class name="com.orangeHRM.qa.testcases.LeavePeriodPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="leavePeriodTesting"/>
+          <include name="verifyLeavePeriodPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LeavePeriodPageTest -->
+      <class name="com.orangeHRM.qa.testcases.SocialMediaAuthenticationPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="socialMediaAuthenticationTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifySocialMediaAuthenticationPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.SocialMediaAuthenticationPageTest -->
+      <class name="com.orangeHRM.qa.testcases.UsersPageTest">
+        <methods>
+          <include name="verifyUsersPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="usersTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.UsersPageTest -->
+      <class name="com.orangeHRM.qa.testcases.CustomFieldsPIMPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyCustomFieldsPIMPageNavigation"/>
+          <include name="customFieldsPIMTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.CustomFieldsPIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ConfigurationTimePageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyConfigurationTimePageNavigation"/>
+          <include name="configurationTimeTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ConfigurationTimePageTest -->
+      <class name="com.orangeHRM.qa.testcases.EmployeeEntitlementPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyEmployeeEntitlementsTestPage"/>
+          <include name="setcontext"/>
+          <include name="verifyEmployemployeeEntitlementsPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EmployeeEntitlementPageTest -->
+      <class name="com.orangeHRM.qa.testcases.DepenedentsPageTest">
+        <methods>
+          <include name="verifypersonalDetailsPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="validateDependentsButton_bgcolor"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.DepenedentsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.LanguagesPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyLanguagesPageNavigation"/>
+          <include name="languagesTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LanguagesPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ProjectReportsPageTest">
+        <methods>
+          <include name="projectReportsTesting"/>
+          <include name="verifyProjectReports"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ProjectReportsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ResetPasswordTestPage">
+        <methods>
+          <include name="space_Credentials"/>
+          <include name="testcontext"/>
+          <include name="invalid_Credentials"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validCredentials_SeccondTime"/>
+          <include name="verify_PageElements"/>
+          <include name="validCredentials_FirstTime"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ResetPasswordTestPage -->
+      <class name="com.orangeHRM.qa.testcases.EmployeeListPIMPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyEmployeeListPIMPageNavigation"/>
+          <include name="addEmployeePIMTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EmployeeListPIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.DashboardPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyDashboardPageNavigation"/>
+          <include name="dashboardTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.DashboardPageTest -->
+      <class name="com.orangeHRM.qa.testcases.JobCategoriesPageTest">
+        <methods>
+          <include name="verifyJobCategoriesPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="jobCategoriesTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.JobCategoriesPageTest -->
+      <class name="com.orangeHRM.qa.testcases.MemberShipsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyMemberShipsPageNavigation"/>
+          <include name="memberShipsTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MemberShipsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.OptionalFieldsPIMPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="optionalFieldsPIMTesting"/>
+          <include name="verifyOptionalFieldsPIMPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.OptionalFieldsPIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ProjectsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="projectsTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyProjectsPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ProjectsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.WorkShiftsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyWorkShiftsPageNavigation"/>
+          <include name="workShiftsTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.WorkShiftsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.PurgeEmployeeRecordsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyPurgeEmployeeRecordsPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="purgeEmployeeRecordsTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.PurgeEmployeeRecordsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.EmployeeTimeSheetsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="employeeTimeSheetsTesting"/>
+          <include name="verifyEmployeeTimeSheets"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.EmployeeTimeSheetsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.QualificationsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyQualificationsPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="qualificationsTesting"/>
+          <include name="validatingUserManagementSubMenuDisplay"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.QualificationsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.MyRecordsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="verifyMyRecordsPageNavigation"/>
+          <include name="myRecordsTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MyRecordsPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

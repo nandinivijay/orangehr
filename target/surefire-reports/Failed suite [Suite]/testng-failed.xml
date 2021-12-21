@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Failed suite [Suite]]">
+  <listeners>
+    <listener class-name="com.orangeHRM.qa.util.Listener_ItestContext_Screenshot"/>
+    <listener class-name="com.orangeHRM.qa.util.TestListenerForExtentReports"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)(failed)">
+    <classes>
+      <class name="com.orangeHRM.qa.testcases.AssignLeavePageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validatingMandatoryFieldsbeforeEnteringValues"/>
+          <include name="close"/>
+          <include name="verifyAssignLeavePageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.AssignLeavePageTest -->
+      <class name="com.orangeHRM.qa.testcases.RecruitmentPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyRecruitmentPageNavigation"/>
+          <include name="validatingRecruitmentSubMenuDisplay"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="navigatingToSubMenuOnClickingRecruitment"/>
+          <include name="verifyColorsOfSubmenuInRecruitment"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.RecruitmentPageTest -->
+      <class name="com.orangeHRM.qa.testcases.TerminationReasonsPIMPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="terminationReasonsPIMTesting"/>
+          <include name="verifyTerminationReasonsPIMPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.TerminationReasonsPIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.PersonalDetailsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="personalDetailsTesting"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="verifypersonalDetailsPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.PersonalDetailsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.LoginTestPage">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="login_invalid_credentials"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LoginTestPage -->
+      <class name="com.orangeHRM.qa.testcases.Memberships_MyInfoPageTest">
+        <methods>
+          <include name="a_verifyMyInfoPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="b_myInfoTesting"/>
+          <include name="validateMemberships_MyInfoButton_bgcolor"/>
+          <include name="close"/>
+          <include name="verifyMemberships_MyInfoPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.Memberships_MyInfoPageTest -->
+      <class name="com.orangeHRM.qa.testcases.MyLeaveEntitlementsAndUsageReportPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyMyLeaveEntitlementsAndUsageReportPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="myLeaveEntitlementsAndUsageReportTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MyLeaveEntitlementsAndUsageReportPageTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
