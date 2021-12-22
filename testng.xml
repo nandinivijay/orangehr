@@ -9,7 +9,7 @@
   <test thread-count="5" name="Test">
     <classes>
       
-    <!--    <class name="com.orangeHRM.qa.testcases.LeaveListPageTest"/> -->
+    <class name="com.orangeHRM.qa.testcases.LeaveListPageTest"/>
       <class name="com.orangeHRM.qa.testcases.LoginTestPage"/>
       <class name="com.orangeHRM.qa.testcases.JobCategoriesPageTest"/>
       <class name="com.orangeHRM.qa.testcases.AttendanceSummaryPageTest"/>
