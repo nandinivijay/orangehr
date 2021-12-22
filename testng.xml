@@ -60,7 +60,6 @@
       <class name="com.orangeHRM.qa.testcases.ReportsPIMPageTest"/>
       <class name="com.orangeHRM.qa.testcases.EmployeeTrackersPageTest"/>
       <class name="com.orangeHRM.qa.testcases.TaxExemptionPageTest"/>
-      <class name="com.orangeHRM.qa.testcases.MemberShipsPageTest"/>
       <class name="com.orangeHRM.qa.testcases.PunchInOutPageTest"/>
       <class name="com.orangeHRM.qa.testcases.HolidaysPageTest"/>
       <class name="com.orangeHRM.qa.testcases.EmergencyContactsPageTest"/>
